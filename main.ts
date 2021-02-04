@@ -33,13 +33,9 @@ class Car extends Engine {
         this.numberOfWheels = numberOfWheels;
     }
 
-    // public get carName() {
-    //     return this._carName
-    // }
-
 }
 class Plane extends Engine{
-    
+
 }
 
 const mazda: Car = new Car("Mazda BT50", "RED", 4, 4);
